@@ -2,67 +2,141 @@
   {
     "equipment": "T-28D-03X",
     "data": [
-      { "label": "1", "value": 0.4, "color": "#0099cc" },
-      { "label": "2", "value": 0.5, "color": "#ff9966" },
-      { "label": "3", "value": 0.65, "color": "#663399" },
-      { "label": "4", "value": 0.2, "color": "#336699" },
-      { "label": "5", "value": 0.75, "color": "#ff6600" },
-      { "label": "6", "value": 0.75, "color": "#ff6600" },
-      { "label": "7", "value": 0.75, "color": "#ff6600" },
-      { "label": "8", "value": 0.75, "color": "#ff6600" }
-    ]
+      { "label": "1", "value": 0, "color": "#0099cc" },
+      { "label": "2", "value": 0, "color": "#ff9966" },
+      { "label": "3", "value": 0, "color": "#663399" },
+      { "label": "4", "value": 0, "color": "#336699" },
+      { "label": "5", "value": 0, "color": "#ff6600" },
+      { "label": "6", "value": 0, "color": "#ff6600" },
+      { "label": "7", "value": 0, "color": "#ff6600" },
+      { "label": "8", "value": 0, "color": "#ff6600" }
+    ],
+    "note": "Previsto Abertura para 16/11"
   },
   {
     "equipment": "T-28D-11X",
     "data": [
-      { "label": "1", "value": 0.5, "color": "#ff0000" },
-      { "label": "2", "value": 0.75, "color": "#00ff00" },
-      { "label": "3", "value": 0.6, "color": "#0000ff" },
-      { "label": "4", "value": 0.9, "color": "#ffa500" },
-      { "label": "5", "value": 0.3, "color": "#ff00ff" },
-      { "label": "6", "value": 0.3, "color": "#ff00ff" },
-      { "label": "7", "value": 0.3, "color": "#ff00ff" },
-      { "label": "8", "value": 0.3, "color": "#ff00ff" }
+      { "label": "1", "value": 0, "color": "#ff0000" },
+      { "label": "2", "value": 0, "color": "#00ff00" },
+      { "label": "3", "value": 0, "color": "#0000ff" },
+      { "label": "4", "value": 0, "color": "#ffa500" },
+      { "label": "5", "value": 0, "color": "#ff00ff" },
+      { "label": "6", "value": 0, "color": "#ff00ff" },
+      { "label": "7", "value": 0, "color": "#ff00ff" },
+      { "label": "8", "value": 0, "color": "#ff00ff" }
+    ],
+    "note": "Abertura estava prevista para 11/11 foi adiada para 12/11 o caminhão munck foi para a digestão",
+    "activities": [
+      {
+        "description": "Raqueteamento (cegar)",
+        "steps": [false, false, false, false, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Porta de visita",
+        "steps": [false, true, false, false, false, true, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Interior do tanque",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Desincrustação interna - principal",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Desincrustação interna - transbordo",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Limpeza externa",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Válvulas de sucção - principal",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Válvulas de sucção - transbordo",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Válvulas de descarga - principal",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Válvulas de descarga - transbordo",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Válvulas drenos",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Filtros de crosta",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Inversão de raquete (Vazada)",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      },
+      {
+        "description": "Housekeeping",
+        "steps": [true, false, false, true, false, false, false, true],
+        "currentStep": -1
+      }
     ]
   },
   {
     "equipment": "T-28D-04X",
     "data": [
-      { "label": "1", "value": 0.7, "color": "#ffcc00" },
-      { "label": "2", "value": 0.6, "color": "#66cc66" },
-      { "label": "3", "value": 0.8, "color": "#ff0000" },
-      { "label": "4", "value": 0.3, "color": "#660066" },
-      { "label": "5", "value": 0.3, "color": "#660066" },
-      { "label": "6", "value": 0.3, "color": "#660066" },
-      { "label": "7", "value": 0.3, "color": "#660066" },
-      { "label": "8", "value": 0.3, "color": "#660066" }
+      { "label": "1", "value": 0, "color": "#ffcc00" },
+      { "label": "2", "value": 0, "color": "#66cc66" },
+      { "label": "3", "value": 0, "color": "#ff0000" },
+      { "label": "4", "value": 0, "color": "#660066" },
+      { "label": "5", "value": 0, "color": "#660066" },
+      { "label": "6", "value": 0, "color": "#660066" },
+      { "label": "7", "value": 0, "color": "#660066" },
+      { "label": "8", "value": 0, "color": "#660066" }
     ]
   },
   {
     "equipment": "T-28D-12X",
     "data": [
-      { "label": "1", "value": 0.5, "color": "#ff0000" },
-      { "label": "2", "value": 0.75, "color": "#00ff00" },
-      { "label": "3", "value": 0.6, "color": "#0000ff" },
-      { "label": "4", "value": 0.9, "color": "#ffa500" },
-      { "label": "5", "value": 0.3, "color": "#ff00ff" },
-      { "label": "6", "value": 0.3, "color": "#ff00ff" },
-      { "label": "7", "value": 0.3, "color": "#ff00ff" },
-      { "label": "8", "value": 0.3, "color": "#ff00ff" }
+      { "label": "1", "value": 0, "color": "#ff0000" },
+      { "label": "2", "value": 0, "color": "#00ff00" },
+      { "label": "3", "value": 0, "color": "#0000ff" },
+      { "label": "4", "value": 0, "color": "#ffa500" },
+      { "label": "5", "value": 0, "color": "#ff00ff" },
+      { "label": "6", "value": 0, "color": "#ff00ff" },
+      { "label": "7", "value": 0, "color": "#ff00ff" },
+      { "label": "8", "value": 0, "color": "#ff00ff" }
     ]
   },
   {
     "equipment": "T-28C-04X",
     "data": [
-      { "label": "1", "value": 0.4, "color": "#0099cc" },
-      { "label": "2", "value": 0.5, "color": "#ff9966" },
-      { "label": "3", "value": 0.65, "color": "#663399" },
-      { "label": "4", "value": 0.2, "color": "#336699" },
-      { "label": "5", "value": 0.75, "color": "#ff6600" },
-      { "label": "6", "value": 0.4, "color": "#0099cc" },
-      { "label": "7", "value": 0.5, "color": "#ff9966" },
-      { "label": "8", "value": 0.65, "color": "#663399" },
-      { "label": "9", "value": 0.2, "color": "#336699" },
+      { "label": "1", "value": 0, "color": "#0099cc" },
+      { "label": "2", "value": 0, "color": "#ff9966" },
+      { "label": "3", "value": 0, "color": "#663399" },
+      { "label": "4", "value": 0, "color": "#336699" },
+      { "label": "5", "value": 0, "color": "#ff6600" },
+      { "label": "6", "value": 0, "color": "#0099cc" },
+      { "label": "7", "value": 0, "color": "#ff9966" },
+      { "label": "8", "value": 0, "color": "#663399" },
+      { "label": "9", "value": 0, "color": "#336699" },
       { "label": "10", "value": 0.75, "color": "#ff6600" },
       { "label": "11", "value": 0.4, "color": "#0099cc" },
       { "label": "12", "value": 0.5, "color": "#ff9966" },
