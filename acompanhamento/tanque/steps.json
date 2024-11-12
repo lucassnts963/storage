@@ -1,0 +1,58 @@
+[
+  {
+    "description": "Raqueteamento (cegar)",
+    "steps": ["Concluído"]
+  },
+  {
+    "description": "Porta de visita",
+    "steps": ["Aberto", "Fechado", "Concluído"]
+  },
+  {
+    "description": "Interior do Tanque",
+    "steps": ["Montar andaime", "Limpeza", "Desm. andaime", "Concluído"]
+  },
+  {
+    "description": "Desincrustação interna - principal",
+    "steps": ["Limpeza", "Concluído"]
+  },
+  {
+    "description": "Desincrustação interna - transbordo",
+    "steps": ["Limpeza", "Concluído"]
+  },
+  {
+    "description": "Limpeza externa",
+    "steps": ["Limpeza", "Concluído"]
+  },
+  {
+    "description": "Válvulas de sucção - principal",
+    "steps": ["Trocado", "Concluído"]
+  },
+  {
+    "description": "Válvulas de sucção - transbordo",
+    "steps": ["Trocado", "Concluído"]
+  },
+  {
+    "description": "Válvulas de descarga - principal",
+    "steps": ["Trocado", "Concluído"]
+  },
+  {
+    "description": "Válvulas de sucção - transbordo",
+    "steps": ["Trocado", "Concluído"]
+  },
+  {
+    "description": "Válvulas drenos",
+    "steps": ["Trocado", "Concluído"]
+  },
+  {
+    "description": "Filtros de crosta",
+    "steps": ["Trocado", "Concluído"]
+  },
+  {
+    "description": "Inversão de raquete (Vazada)",
+    "steps": ["Concluído"]
+  },
+  {
+    "description": "Housekeeping",
+    "steps": ["Concluído"]
+  }
+]
